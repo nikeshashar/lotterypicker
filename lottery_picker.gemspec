@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = LotteryPicker::VERSION
   spec.authors       = ["Nikesh Ashar"]
   spec.email         = ["nikeshashar@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A UK National Lottery number generator.}
+  spec.description   = %q{A test gem to generate 6 numbers for the UK Lottery.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
