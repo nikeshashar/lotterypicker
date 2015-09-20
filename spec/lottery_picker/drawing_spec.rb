@@ -19,15 +19,15 @@ module LotteryPicker
         end
       end
 
-      it "each element is less than 49" do
-        draw.each do |drawing|
-          expect(drawing).to be < 49
-        end
-      end
-
       it "each element is greater than 0" do
         draw.each do |drawing|
           expect(drawing).to be > 0
+        end
+      end
+
+      it "each element is less than 49" do
+        draw.each do |drawing|
+          expect(drawing).to be < 49
         end
       end
     end
