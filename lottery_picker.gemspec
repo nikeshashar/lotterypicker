@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'lottery_picker/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "lottery_picker"
+  spec.name          = "uk_lottery_picker"
   spec.version       = LotteryPicker::VERSION
   spec.authors       = ["Nikesh Ashar"]
   spec.email         = ["nikeshashar@gmail.com"]
